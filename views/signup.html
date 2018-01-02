@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>lyft</title>
+	<link rel="stylesheet" href="../vendors/css/bootstrap.min.css">
+	<link rel="stylesheet" href="../css/signup.css">
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+	 crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:100,400" rel="stylesheet">
+</head>
+
+<body>
+	<header>
+		<div class="container-fluid main-container">
+			<div class="row">
+				<div class="col-xs-12 view-one">
+					<span class="glyphicon glyphicon-chevron-left"></span>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-12 flex">
+					<h1>Sign Up</h1>
+				</div>
+				<div class="col-xs-12 flex">
+					<p>Join now for free ride credit</p>
+				</div>
+				<div class="col-xs-12">
+					<div class="linea"></div>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<!-- Ingreso de numeros -->
+<!-- 
+	<section>
+			<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Select Country
+				<span class='btn-select-arrow glyphicon glyphicon-chevron-down'></span>
+			</button>
+
+
+		<a class="btn btn-default btn-select btn-select-light">
+			<input type="hidden" class="btn-select-input" id="" name="" value="" />
+			<span class="btn-select-value">Select an Item</span>
+			<span class='btn-select-arrow glyphicon glyphicon-chevron-down'></span>
+			<ul>
+				<li><a href="#"><img src="../assets/icons/mex.png" class="bandera" alt=""></a></li>
+				<li><a href="#"><img src="../assets/icons/per.png" class="bandera" alt=""></a></li>
+				<li><a href="#"><img src="../assets/icons/col.png" class="bandera" alt=""></a></li>
+				<li><a href="#"><img src="../assets/icons/usa.png" class="bandera" alt=""></a></li>
+			</ul>
+		</a>
+	</section> -->
+
+	<!-- <section>
+			<select class="form-control">
+					<option class="mex">mex</option>
+		
+				</select>
+	</section> -->
+
+	<div class="dropdown">
+			<button id="select-country" type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
+				aria-expanded="false">
+				Please select from list
+				<span class="caret"></span>
+			</button>
+
+			<!--ul id="country" class="dropdown-menu" aria-labelledby="select-country">
+					<li role="presentation"><a role="menuitem" tabindex="-1" href="#">HTML</a></li>
+					<li role="presentation"><a role="menuitem" tabindex="-1" href="#">CSS</a></li>
+					<li role="presentation"><a role="menuitem" tabindex="-1" href="#">JavaScript</a></li>
+					<li role="presentation" class="divider"></li>
+					<li role="presentation"><a role="menuitem" tabindex="-1" href="#">About Us</a></li>
+				</ul-->
+
+			<ul id="country" class="dropdown-menu" aria-labelledby="select-country">
+				<li>
+					<a href="#" data-value="+51">
+						<img src="../assets/icons/per.png" alt="Icono de Perú">
+					</a>
+				</li>
+				<li>
+					<a href="#" data-value="+01">
+						<img src="../assets/icons/usa.png" alt="Icono de USA">
+					</a>
+				</li>
+				<li>
+					<a href="#" data-value="+52">
+						<img src="../assets/icons/mex.png" alt="Icono de México">
+					</a>
+				</li>
+				<li>
+					<a href="#" data-value="+57">
+						<img src="../assets/icons/col.png" alt="Icono de Colombia">
+					</a>
+				</li>
+			</ul>
+		</div>
+
+	<script type="text/javascript" src="../vendors/js/jquery.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="../js/signup.js"></script>
+</body>
+
+</html>

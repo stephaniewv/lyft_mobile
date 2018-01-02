@@ -1,0 +1,34 @@
+
+.main-container{
+  background-image: url(../assets/images/hero.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: top;
+}
+
+.view-one{
+  display: flex;
+  justify-content: center;
+
+}
+
+
+.logo {
+  height: 70px;
+  margin: 20px;
+ 
+}
+.botones{
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 70vh;
+
+}
+
+.btn-info{
+  background-color: transparent;
+  border: 1px solid white;
+
+  
+}
