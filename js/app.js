@@ -3,3 +3,5 @@ $(document).ready(function() {
       window.location.href = 'views/principal.html';
     }, 3000);
   });
+
+

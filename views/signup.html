@@ -34,8 +34,10 @@
 		</div>
 	</header>
 
+
+
 	<!-- Ingreso de numeros -->
-<!-- 
+	<!-- 
 	<section>
 			<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Select Country
 				<span class='btn-select-arrow glyphicon glyphicon-chevron-down'></span>
@@ -62,14 +64,58 @@
 				</select>
 	</section> -->
 
-	<div class="dropdown">
-			<button id="select-country" type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
-				aria-expanded="false">
-				Please select from list
-				<span class="caret"></span>
-			</button>
+	<div class="container">
+		<div class="row stylebtn">
+			<div class="col-xs-4">
+				<div class="dropdown">
+					<button id="select-country" type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
+					 aria-expanded="false">
+						Pais
+						<span class="caret"></span>
+					</button>
+					<ul id="country" class="dropdown-menu" aria-labelledby="select-country">
+						<li>
+							<a href="#" data-value="+51">
+								<img src="../assets/icons/per.png" alt="Icono de Perú">
+							</a>
+						</li>
+						<li>
+							<a href="#" data-value="+01">
+								<img src="../assets/icons/usa.png" alt="Icono de USA">
+							</a>
+						</li>
+						<li>
+							<a href="#" data-value="+52">
+								<img src="../assets/icons/mex.png" alt="Icono de México">
+							</a>
+						</li>
+						<li>
+							<a href="#" data-value="+57">
+								<img src="../assets/icons/col.png" alt="Icono de Colombia">
+							</a>
+						</li>
+					</ul>
+				</div>
 
-			<!--ul id="country" class="dropdown-menu" aria-labelledby="select-country">
+			</div>
+			<div class="col-xs-8">
+				<form class="form-control">
+					<input id="number" type="text" class="input-medium bfh-phone" data-format="+51 ddd-ddd-ddd">
+				</form>
+			</div>
+
+			<div class="col-xs-12">
+				<input id="next" type="submit" class="next btn btn-default btn-sm btn-block margin-button" value="NEXT"></input>
+			</div>
+
+
+		</div>
+	</div>
+
+
+
+
+	<!--ul id="country" class="dropdown-menu" aria-labelledby="select-country">
 					<li role="presentation"><a role="menuitem" tabindex="-1" href="#">HTML</a></li>
 					<li role="presentation"><a role="menuitem" tabindex="-1" href="#">CSS</a></li>
 					<li role="presentation"><a role="menuitem" tabindex="-1" href="#">JavaScript</a></li>
@@ -77,32 +123,12 @@
 					<li role="presentation"><a role="menuitem" tabindex="-1" href="#">About Us</a></li>
 				</ul-->
 
-			<ul id="country" class="dropdown-menu" aria-labelledby="select-country">
-				<li>
-					<a href="#" data-value="+51">
-						<img src="../assets/icons/per.png" alt="Icono de Perú">
-					</a>
-				</li>
-				<li>
-					<a href="#" data-value="+01">
-						<img src="../assets/icons/usa.png" alt="Icono de USA">
-					</a>
-				</li>
-				<li>
-					<a href="#" data-value="+52">
-						<img src="../assets/icons/mex.png" alt="Icono de México">
-					</a>
-				</li>
-				<li>
-					<a href="#" data-value="+57">
-						<img src="../assets/icons/col.png" alt="Icono de Colombia">
-					</a>
-				</li>
-			</ul>
-		</div>
+
+
 
 	<script type="text/javascript" src="../vendors/js/jquery.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="../vendors/js/bootstrap-formhelpers-phone.js"></script>
 	<script type="text/javascript" src="../js/signup.js"></script>
 </body>
 

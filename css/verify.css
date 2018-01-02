@@ -1,0 +1,52 @@
+.row-flex{
+text-align: center;
+margin-top: 10%;
+}
+
+.linea {
+  width: 100%;
+  height: 1px;
+  margin-top: 9px;
+	border: 0.5px solid rgb(184, 181, 181);
+}
+
+.input-container {
+	display: flex;
+	align-items: flex-end;
+	margin-top: 10%;
+	justify-content: center;
+}
+
+.inputcol{
+	display: inline-flex;
+	align-items: flex-end;
+	color: purple;
+
+}
+
+.form-control{
+	border: none;
+	width: 60px;
+	
+	
+}
+
+.texcol{
+	margin-top: 5%;
+	text-align: center;
+}
+
+.resend{
+	display: flex;
+	justify-content: space-around;
+}
+.btn-resend{
+	background-color: rgb(226, 43, 156);
+	color: white;	
+}
+
+.btn-next{
+	margin-top: 20%;
+	background-color: rgb(226, 43, 156);
+	color: white;	
+}
