@@ -43,7 +43,7 @@
 
 	<section>
 		<div class="container">
-			<form id="registrationForm" class="input-form form-horizontal">
+			<form id="registrationForm" class="input-form form-horizontal" action="../views/final.html">
 				<div class="input-group">
 					<span class="input-group-addon">
 						<i class="glyphicon glyphicon-user"></i>
@@ -58,10 +58,15 @@
 				</div>
 				<div class="input-group">
 						<input type="checkbox" id="agree" name="agree" value="agree" required/>
-						Agree with the terms and conditions
+						I agree to Lyft'ss <a href="#">Terms of Service</a>
+				</div>
+				<div class="col-xs-12 resend">
+						<button id="submit" type="submit" class="btn-lg btn btn-next">Next</button>
 				</div>
 			</form>
 		</div>
+
+		
 	</section>
 
 

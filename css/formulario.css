@@ -18,3 +18,15 @@
 .input-form{
 	margin-top: 5%;
 }
+
+
+.resend{
+	display: flex;
+	justify-content: space-around;
+}
+
+.btn-next{
+	margin-top: 20%;
+	background-color: rgb(226, 43, 156);
+	color: white;	
+}
